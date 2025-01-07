@@ -1,6 +1,13 @@
 spring:
   application:
     name: gateway
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: "user-gateway-service"
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+    admin:
+      auto-create: false
 eureka:
   client:
     healthcheck:

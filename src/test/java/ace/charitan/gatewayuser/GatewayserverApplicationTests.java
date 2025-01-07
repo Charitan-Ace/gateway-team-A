@@ -1,4 +1,4 @@
-package ace.charitan.gatewayserver;
+package ace.charitan.gatewayuser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

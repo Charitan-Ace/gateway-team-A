@@ -1,4 +1,4 @@
-package ace.charitan.gatewayserver.config;
+package ace.charitan.gatewayuser.config;
 
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
